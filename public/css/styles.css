@@ -1,0 +1,114 @@
+
+body{
+    padding-top:20px;
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.home{
+    background-image: url(../images/welcome.jpg);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.product{
+    background-color: #3a3203;
+}
+
+.about, .welcome, .contact{
+    position:relative;
+    text-align: center;
+}
+.logo{
+    width: 200px;
+    margin-right: 4.5em;
+    margin-left: -3.4em;
+    float: left;
+    padding: auto;
+    position: relative;
+
+    
+}
+img{
+    width:100%;
+    border: 5px solid white;
+    border-radius: 5%;
+}
+#header{
+    border-radius: 30px;
+    background-image: url(../images/t.jpg);
+}
+#header span{
+    background-color:gray;
+    color: white;
+}
+form{
+    border-radius: 1%;
+    /* border-color: black; */
+    border-style: groove;
+    background-color:skyblue;
+    /* background-size: 5px; */
+}
+h2{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
+h3 {
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
+nav{
+    background-color:#01008C;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+nav > li { 
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+  } 
+
+.navbar-toggler {
+    color: white;
+    background-color: white;
+}
+
+.navbar-nav .nav-link.active{
+    color: #4edc35;
+}
+
+footer {
+    margin-top: 0;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    bottom: 0;
+
+}
+.modal-notify .modal-header {
+    border-radius: 3px 3px 0 0;
+}
+.modal-notify .modal-content {
+    border-radius: 3px;
+}
+
+.btn:hover {
+    color: aliceblue;
+    background-color: green;
+    border-color: var(--bs-btn-hover-border-color);
+}
+/* #login{
+    margin: auto;
+} */
